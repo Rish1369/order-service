@@ -15,6 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @Import(TestcontainersConfiguration.class)
 @SpringBootTest
+
 class OrderServiceApplicationTests {
 
 	@Autowired
